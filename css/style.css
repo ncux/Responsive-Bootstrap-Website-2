@@ -1,0 +1,29 @@
+:root {
+    --Google-Font: 'Poiret One', cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bg-gradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bg-gradient);
+}
+
+header, section {
+    overflow-x: hidden;
+}
+
+header a {
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-family: var(--Google-Font);
+}
