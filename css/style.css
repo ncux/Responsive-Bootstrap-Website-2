@@ -236,3 +236,87 @@ header .row .col-md-5 img {
 }
 
 /* Section 3 with "Download..." text */
+.section-3 {
+    height: 20rem;
+    margin-top: 5rem;
+    background: var(--bg-gradient);
+}
+
+.section-3 .col-md-12 > h1 {
+    padding: 2rem 0 0.5rem 0;
+    color: whitesmoke;
+}
+
+.section-3 .col-md-12 > p {
+    color: whitesmoke;
+    padding: 0 4rem;
+}
+
+.section-3 .platform .desktop {
+    background: whitesmoke;
+    display: inline-block;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+}
+
+.section-3 .platform .desktop .text h3 {
+    font-size: 1.5rem;
+}
+
+.section-3 .platform .desktop .text p {
+    font-size: 0.8rem;
+}
+
+/* Section 4; CARDS with CEOs */
+.section-4 > div h1 {
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+
+.section-4 .team {
+    padding: 1rem 0.5rem;
+}
+
+.section-4 .team .card {
+    width: 25rem;
+    margin-top: 1rem;
+}
+
+.section-4 .team .card .card-text {
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.section-4 .team .card .card-body a {
+    font-size: 1.5rem;
+}
+
+.section-4 .team #carouselExampleSlidesOnly.carousel-item {
+    padding-left: 3rem;
+}
+
+.profile-images {
+    padding-top: 1rem;
+    border-radius: 20rem;
+    width: 60%;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 1.5rem;
+}
+
+footer form input::placeholder {
+    color: whitesmoke !important;
+}
+
+footer form .input-group-prepend .input-group-text {
+    background: var(--bg-gradient);
+    border: none;
+}
+
+
