@@ -1,0 +1,550 @@
+
+
+
+header .navbar .navbar-toggler {
+    border: none;
+    background-color: gray;
+}
+
+header .navbar .navbar-toggler .navbar-toggler-icon {
+    padding: 0;
+}
+
+header .navbar #navbarNav .mr-auto {
+    display: none;
+}
+
+header .navbar #navbarNav {
+    /*display: grid;*/
+    /*grid-template-columns: 1fr;*/
+    /*justify-content: center;*/
+
+}
+
+header .navbar #navbarNav .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 1 with image and "John Doe" text */
+.section-1 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 85rem;
+    padding: 2rem 0;
+}
+
+.section-1 .row {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.section-1 .row .col-md-6 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-1 .row .col-md-6 .pray {
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+/* div with image */
+.section-1 .row .col-md-6 .pray img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    /*opacity: 0.7;*/
+    /*width: 80%;*/
+    /*border-radius: 0.2rem;*/
+}
+
+.section-1 .row .col-md-6:last-child {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    /*position: relative;*/
+}
+
+.section-1 .row .col-md-6 .panel {
+    /*position: absolute;*/
+    /*padding: 1.2rem 2.4rem;*/
+    /*text-align: left;*/
+    /*top: 4rem;*/
+    /*box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);*/
+    /*z-index: 3;*/
+}
+
+/* Section 2 */
+/* div with "We Are Ready For You" heading and p below */
+.section-2 .cover {
+    margin-bottom: 2rem;
+    position: relative;
+    width: 100%;
+    height: 26rem;
+    background-size: 150%;
+}
+
+.section-2 .cover .content {
+    height: 100%;
+    width: 100%;
+    padding-top: 8rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.section-2 .cover .content h1 {
+    color: whitesmoke;
+    font-family: var(--Patua);
+    font-size: 1.5rem;
+}
+
+.section-2 .cover .content p {
+    padding: 0.5rem;
+    color: whitesmoke;
+    font-family: var(--Rubik);
+    font-size: 0.7rem;
+}
+
+/* purchase div */
+.section-2 .purchase > h1 {
+    font-size: 1.5rem;
+    padding-top: 2.2rem;
+    padding-bottom: 0;
+    font-family: var(--Lobster);
+}
+
+.section-2 .purchase > p {
+    color: var(--light-black);
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+}
+
+.section-2 .purchase .cards .card {
+    display: block !important;
+    width: 65rem !important;
+    margin-right: auto;
+    margin-left: auto;
+    /*padding: 0.1rem 0;*/
+}
+
+/* book cards */
+.section-2 .purchase .cards #books-cards-container {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+}
+
+.section-2 .purchase .cards {
+    justify-content: center !important;
+    padding: 0;
+    margin: 0;
+}
+
+.section-2 .purchase .cards .card .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 0.4rem 2.5rem;
+}
+
+.section-2 .purchase .cards .card .card-text {
+    padding: 0.5rem 1rem;
+    color: var(--light-black);
+}
+
+.section-2 .purchase .cards .card .card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.section-2 .purchase .cards .card .card-body .pricing h1 {
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+/* Section 3 with "Download..." text */
+.section-3 {
+    margin-bottom: 2rem;
+    height: 30rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    background: var(--bg-gradient);
+}
+
+.section-3 .col-md-12 > h1 {
+    font-size: 1.5rem;
+    padding: 2rem 0 0.5rem 0;
+    color: whitesmoke;
+}
+
+.section-3 .col-md-12 > p {
+    font-size: 0.8rem;
+    color: whitesmoke;
+    padding: 0 4rem;
+}
+
+.section-3 .platform .desktop {
+    background: whitesmoke;
+    display: block;
+    border-radius: 3rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+}
+
+.section-3 .platform .desktop .text h3 {
+    font-size: 1.5rem;
+}
+
+.section-3 .platform .desktop .text p {
+    font-size: 0.8rem;
+}
+
+.section-4 .team {
+    display: flex !important;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center !important;
+}
+
+.section-4 .carousel-inner {
+    width: 26rem;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 1rem;
+}
+
+footer .row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+}
+
+footer .row #about-us {
+    margin-top: 2rem;
+}
+
+footer .row #newsletter {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+footer .row #social-links {
+    margin-bottom: 2rem;
+    margin-left: 0.6rem;
+    padding: 0 !important;
+    display: block !important;
+    width: 100rem !important;
+}
+
+footer .row #newsletter h4,
+footer .row #newsletter p,
+footer .row #newsletter .input-group {
+    padding-left: 1.7rem;
+}
+
+
+footer .row #social-links h4,
+footer .row #social-links p,
+footer .row #social-links .column {
+    padding-left: 1.1rem;
+}
+
+footer .row .col-md-5:last-child, .col-md-2 {
+}
+
+footer form input::placeholder {
+    color: whitesmoke !important;
+}
+
+footer form .input-group-prepend .input-group-text {
+    background: var(--bg-gradient);
+    border: none;
+}
+
+footer .col-md-2 .column i {
+    color: whitesmoke;
+
+}
+
+footer .col-md-2 .column i:hover {
+    color: #2e72ea;
+}
+
+footer .col-md-2 .column {
+    padding: 0;
+}
+
+
+
+/* for smartphones */
+@media(max-width: 500px) {
+
+
+    header .navbar .navbar-toggler {
+        border: none;
+        background-color: gray;
+    }
+
+    header .navbar .navbar-toggler .navbar-toggler-icon {
+        padding: 0;
+    }
+
+    header .navbar #navbarNav .mr-auto {
+        display: none;
+    }
+
+    header .navbar #navbarNav {
+        /*display: grid;*/
+        /*grid-template-columns: 1fr;*/
+        /*justify-content: center;*/
+
+    }
+
+    header .navbar #navbarNav .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Section 1 with image and "John Doe" text */
+    .section-1 {
+        padding: 2rem 0;
+    }
+
+    .section-1 .row {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .section-1 .row .col-md-6 {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .section-1 .row .col-md-6 .pray {
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* div with image */
+    .section-1 .row .col-md-6 .pray img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        /*opacity: 0.7;*/
+        /*width: 80%;*/
+        /*border-radius: 0.2rem;*/
+    }
+
+    .section-1 .row .col-md-6:last-child {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+        /*position: relative;*/
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        /*position: absolute;*/
+        /*padding: 1.2rem 2.4rem;*/
+        /*text-align: left;*/
+        /*top: 4rem;*/
+        /*box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);*/
+        /*z-index: 3;*/
+    }
+
+    /* Section 2 */
+    /* div with "We Are Ready For You" heading and p below */
+    .section-2 .cover {
+        margin-bottom: 2rem;
+        position: relative;
+        width: 100%;
+        height: 26rem;
+        background-size: 150%;
+    }
+
+    .section-2 .cover .content {
+        height: 100%;
+        width: 100%;
+        padding-top: 8rem;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .section-2 .cover .content h1 {
+        color: whitesmoke;
+        font-family: var(--Patua);
+        font-size: 1.5rem;
+    }
+
+    .section-2 .cover .content p {
+        padding: 0.5rem;
+        color: whitesmoke;
+        font-family: var(--Rubik);
+        font-size: 0.7rem;
+    }
+
+    /* purchase div */
+    .section-2 .purchase > h1 {
+        font-size: 1.5rem;
+        padding-top: 2.2rem;
+        padding-bottom: 0;
+        font-family: var(--Lobster);
+    }
+
+    .section-2 .purchase > p {
+        color: var(--light-black);
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-2 .purchase .cards .card {
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        /*padding: 0.1rem 0;*/
+    }
+
+    /* book cards */
+    .section-2 .purchase .cards #books-cards-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2 .purchase .cards {
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-2 .purchase .cards .card .title {
+        background: rgba(208, 241, 241, 0.199);
+        padding: 0.4rem 2.5rem;
+    }
+
+    .section-2 .purchase .cards .card .card-text {
+        padding: 0.5rem 1rem;
+        color: var(--light-black);
+    }
+
+    .section-2 .purchase .cards .card .card-body .pricing {
+        background: rgba(208, 241, 241, 0.199);
+        border-top-right-radius: 170px;
+        border-top-left-radius: 170px;
+    }
+
+    .section-2 .purchase .cards .card .card-body .pricing h1 {
+        font-size: 2rem;
+        padding: 1rem 0.5rem;
+    }
+
+    /* Section 3 with "Download..." text */
+    .section-3 {
+        margin-bottom: 2rem;
+        height: 30rem;
+        padding: 1rem;
+        margin-top: 3rem;
+        background: var(--bg-gradient);
+    }
+
+    .section-3 .col-md-12 > h1 {
+        font-size: 1.5rem;
+        padding: 2rem 0 0.5rem 0;
+        color: whitesmoke;
+    }
+
+    .section-3 .col-md-12 > p {
+        font-size: 0.8rem;
+        color: whitesmoke;
+        padding: 0 4rem;
+    }
+
+    .section-3 .platform .desktop {
+        background: whitesmoke;
+        display: block;
+        border-radius: 3rem;
+        padding: 0.5rem 0.5rem;
+        margin: 1rem;
+    }
+
+    .section-3 .platform .desktop .text h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-3 .platform .desktop .text p {
+        font-size: 0.8rem;
+    }
+
+
+    /* Footer */
+    footer {
+        margin-top: 2rem;
+        background: rgba(0, 0, 0, 0.815);
+        overflow-x: hidden;
+        padding: 1.5rem;
+    }
+
+    footer .row #newsletter {
+        margin-top: 1rem;
+    }
+
+    footer .row #newsletter h4,
+    footer .row #newsletter p,
+    footer .row #newsletter .input-group {
+        padding-left: 1.7rem;
+    }
+
+
+    footer .row #social-links h4,
+    footer .row #social-links p,
+    footer .row #social-links .column {
+        padding-left: 1.1rem;
+    }
+
+    footer .row .col-md-5:last-child, .col-md-2 {
+        padding: 2.5rem;
+    }
+
+    footer form input::placeholder {
+        color: whitesmoke !important;
+    }
+
+    footer form .input-group-prepend .input-group-text {
+        background: var(--bg-gradient);
+        border: none;
+    }
+
+    footer .col-md-2 .column i {
+        color: whitesmoke;
+        padding: 0 0.5rem;
+
+    }
+
+    footer .col-md-2 .column i:hover {
+        color: #2e72ea;
+    }
+
+    footer .col-md-2 .column {
+        margin-left: -0.4rem;
+    }
+
+
+
+}

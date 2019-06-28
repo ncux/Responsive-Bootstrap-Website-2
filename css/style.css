@@ -113,6 +113,7 @@ header .row .col-md-5 img {
 /* Section 1 with image and "John Doe" text */
 .section-1 {
     padding: 2rem 0;
+    margin-bottom: 4rem;
 }
 
 /* div with image */
@@ -206,7 +207,7 @@ header .row .col-md-5 img {
 
 /* book cards */
 .section-2 .purchase .cards .card {
-    padding: 0.1rem 0.1rem;
+    padding: 0.1rem 0;
     width: 16rem;
     margin: 0.1rem;
 }

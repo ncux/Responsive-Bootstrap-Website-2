@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/mobile.css" media="screen and (max-width: 768px)" rel="stylesheet">
     <title>Responsive-Bootstrap-Website-2</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
     <header>
         <!--   for the nav     -->
         <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg pt-5">
                 <a class="navbar-brand" href="#"><i class="fas fa-book-open"></i> Books</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon mx-0"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
@@ -53,7 +54,7 @@
         </div>
 
         <!--   other text in the header     -->
-        <div class="container text-center">
+        <div class="container text-center mt-0">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <h6>AUTHOR: NCUX</h6>
@@ -65,8 +66,8 @@
                     <button class="btn btn-light px-5 py-2">Get it now for $2.50</button>
                 </div>
 
-                <div class="col-md-5 col-sm-12 h-25">
-                    <img src="assets/images/header-img.png" alt="Header image">
+                <div class="col-md-5 col-sm-12 h-25 mt-5 pt-5">
+                    <img src="assets/images/header-img.png" alt="Header image" class="mt-5">
                 </div>
             </div>
         </div>
@@ -78,14 +79,14 @@
             <div class="container text-center">
                 <div class="row">
 
-                    <div class="col-md-6">
-                        <div class="pray">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="pray col-sm-12">
                             <img src="assets/images/pexels-photo-1904769.jpeg" alt="Pray">
                         </div>
                     </div>
                     
-                    <div class="col-md-6">
-                        <div class="panel text-left">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="panel text-left col-sm-12">
                             <h1 class="text-center">John Doe</h1>
                             <p class="pt-4 text-justify">
                                 None, he's talking out of his ass as usual in these kind of threads, Germany, Switzerland and Austria also have a similar birthrate to Japan
@@ -144,13 +145,14 @@
                     <!--    book cards    -->
                 <div class="cards">
 
-                    <div class="row d-flex flex-row justify-content-center">
-                        <div class="card col-md-4 col-sm-12">
+                    <div id="books-cards-container" class="row d-flex flex-row justify-content-center">
+
+                        <div class="card col-md-3 col-sm-12 mx-2">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">PDF</h5>
                                 </div>
-                                <p class="card-text">Hope that judge has good security. Capitalists hate it when you mess with the profit margins.</p>
+                                <p class="card-text px-0">Hope that judge has good security. Capitalists hate it when you mess with the profit margins.</p>
                                 <div class="pricing">
                                     <h1>$12.49</h1>
                                     <a href="#" class="btn btn-dark px-5">Purchase now</a>
@@ -158,12 +160,12 @@
                             </div>
                         </div>
 
-                        <div class="card col-md-4 col-sm-12">
+                        <div class="card col-md-3 col-sm-12 mx-2">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">E-book</h5>
                                 </div>
-                                <p class="card-text">Taking private land or business and giving it to a ministry of the government is as socialist as socialist can be.</p>
+                                <p class="card-text px-0">Taking private land or business and giving it to a ministry of the government is as socialist as socialist can be.</p>
                                 <div class="pricing">
                                     <h1>16.49</h1>
                                     <a href="#" class="btn btn-dark px-5">Purchase now</a>
@@ -171,18 +173,19 @@
                             </div>
                         </div>
 
-                        <div class="card col-md-4 col-sm-12">
+                        <div class="card col-md-3 col-sm-12 mx-2">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">Hard Copy</h5>
                                 </div>
-                                <p class="card-text">It's been the courts defending against encroachment by the far right. The importance of judicial independence indeed.</p>
+                                <p class="card-text px-0">It's been the courts defending against encroachment by the far right. The importance of judicial independence indeed.</p>
                                 <div class="pricing">
                                     <h1>$28.49</h1>
                                     <a href="#" class="btn btn-dark px-5">Purchase now</a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                 </div>
@@ -190,8 +193,9 @@
 
         </section>
 
-            <!--"Download our app now" section-->
+
         <section class="section-3 container-fluid p-0 text-center">
+            <!--"Download our app now" section-->
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <h1>Download Our App Now!</h1>
@@ -339,13 +343,13 @@
         <div class="container-fluid p-0">
             <div class="row text-left">
 
-                <div class="col-md-5 col-sm-12">
+                <div id="about-us" class="col-md-5 col-sm-12">
                     <h4 class="text-light px-4">About Us</h4>
                     <p class="text-muted pt-2 px-4">Thanks for sharing! Mind elaborating on what type of company you work for, and what you do as a field engineer?</p>
                     <p class="text-muted pt-2 px-4">&copy; 2019 <a href="https://github.com/ncux" target="_blank">ncux</a> | All Rights Reserved!</p>
                 </div>
 
-                <div class="col-md-5 col-sm-12">
+                <div id="newsletter" class="col-md-5 col-sm-12">
                     <h4 class="text-light">Newsletter</h4>
                     <p class="text-muted pt-2">Stay up to date: enter your email address below to subscribe!</p>
                     <form class="form-inline">
@@ -362,7 +366,7 @@
                     </form>
                 </div>
 
-                <div class="col-md-2 col-sm-12">
+                <div id="social-links" class="col-md-2 col-sm-12">
                     <h4 class="text-light">Social Links</h4>
                     <p class="text-muted pt-2">Follow us</p>
                     <div class="column">
